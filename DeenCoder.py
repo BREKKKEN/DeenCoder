@@ -7,7 +7,9 @@ print(""" _____    ______   ______   _   _    _____    ____    _____    ______  
 |_____/  |______| |______| |_| \_|  \_____|  \____/  |_____/  |______| |_|  \_\ [v0.1]""")
 
 
-
+t1 = 'DeenCoder-Main'
+t2 = 'DeenCoder-Morse to English'
+t3 = 'DeenCoder-English to Morse'
 
 ENGLISH_TO_MORSE = {'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.', 'G': '--.', 'H': '....',
                     'I': '..', 'J': '.---', 'K': '-.-', 'L': '.-..', 'M': '--', 'N': '-.', 'O': '---', 'P': '.--.',
@@ -40,7 +42,7 @@ def morse_to_english(message):
 
 def main():
     while True:
-        os.system('title ' + 'DeenCoder-Main')
+        os.system(f'title {t1}')
         print("")
         print('Please choose 1/2/3 or type 4 to list a morse code chart')
         response = input("""[1] Convert Morse Code to English
@@ -51,7 +53,7 @@ def main():
             break
 
     if response == "1":
-        os.system('title ' + 'DeenCoder-Morse to English')
+        os.system(f'title {t2}')
         print("")
         print('example: .... . .-.. .-.. --- > Hello')
         print("Enter Morse code (with a space after each code): ")
@@ -66,7 +68,7 @@ def main():
         main()
 
     elif response == "2":
-        os.system('title ' + 'DeenCoder-English to Morse')
+        os.system(f'title {t3}')
         print("")
         print('example: Hello > .... . .-.. .-.. ---')
         print("Enter English text: ")
