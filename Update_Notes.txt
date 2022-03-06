@@ -1,3 +1,7 @@
+DeenCoder update v0.1.2 notes.
+
 1. new supported characters: "." "?" "," "/"
+
 2. instead of spaceing morse code with: " " its now spaced with: "/" so when typing hello it would be typed out as: "...././.-../.-../---"
+
 3. updated morse code chart.
