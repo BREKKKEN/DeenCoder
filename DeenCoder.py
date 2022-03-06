@@ -4,7 +4,7 @@ print(""" _____    ______   ______   _   _    _____    ____    _____    ______  
 | |  | | | |__    | |__    |  \| | | |      | |  | | | |  | | | |__    | |__) |
 | |  | | |  __|   |  __|   | . ` | | |      | |  | | | |  | | |  __|   |  _  /  -.. . . -. -.-. --- -.. . .-.
 | |__| | | |____  | |____  | |\  | | |____  | |__| | | |__| | | |____  | | \ \  
-|_____/  |______| |______| |_| \_|  \_____|  \____/  |_____/  |______| |_|  \_\ [v0.1]""")
+|_____/  |______| |______| |_| \_|  \_____|  \____/  |_____/  |______| |_|  \_\ [v0.1.2]""")
 
 
 t1 = 'DeenCoder-Main'
@@ -15,7 +15,7 @@ ENGLISH_TO_MORSE = {'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', '
                     'I': '..', 'J': '.---', 'K': '-.-', 'L': '.-..', 'M': '--', 'N': '-.', 'O': '---', 'P': '.--.',
                     'Q': '--.-', 'R': '.-.', 'S': '...', 'T': '-', 'U': '..-', 'V': '...-', 'W': '.--', 'X': '-..-',
                     'Y': '-.--', 'Z': '--..', '0': '-----', '1': '.----', '2': '..---', '3': '...--', '4': '....-',
-                    '5': '.....', '6': '-....', '7': '--...', '8': '---..', '9': '----.'}
+                    '5': '.....', '6': '-....', '7': '--...', '8': '---..', '9': '----.', '.': '.-.-.-', ',': '--..--', '?': '..--..', '/': '-..-.'}
 
 
 MORSE_TO_ENGLISH = {}
@@ -28,11 +28,11 @@ def english_to_morse(message):
     for char in message:
         if char in ENGLISH_TO_MORSE:
             morse.append(ENGLISH_TO_MORSE[char])
-    return " ".join(morse)
+    return "/".join(morse)
 
 
 def morse_to_english(message):
-    message = message.split(" ")
+    message = message.split("/")
     english = []  
     for code in message:
         if code in MORSE_TO_ENGLISH:
@@ -44,10 +44,10 @@ def main():
     while True:
         os.system(f'title {t1}')
         print("")
-        print('Please choose 1/2/3 or type 4 to list a morse code chart')
-        response = input("""[1] Convert Morse Code to English
-[2] Convert English to Morse Code
-[3] Exit DeenCoder 
+        print('Please choose 1/2/3/ or 4 to print a morse code chart')
+        response = input("""[1] to Convert Morse Code to English
+[2] to Convert English to Morse Code
+[3] to Exit DeenCoder
 [?~] """).upper()
         if response == "1" or response == "2" or response == '3' or response == '4':
             break
@@ -55,9 +55,9 @@ def main():
     if response == "1":
         os.system(f'title {t2}')
         print("")
-        print('example: .... . .-.. .-.. --- > Hello')
-        print("Enter Morse code (with a space after each code): ")
-        morse = input("> ")
+        print('example: ...././.-../.-../--- > Hello')
+        print("Enter Morse code (with a slash after each code): ")
+        morse = input("~> ")
         print("")
         english = morse_to_english(morse)
         print('')
@@ -70,9 +70,9 @@ def main():
     elif response == "2":
         os.system(f'title {t3}')
         print("")
-        print('example: Hello > .... . .-.. .-.. ---')
+        print('example: Hello > ...././.-../.-../---')
         print("Enter English text: ")
-        english = input("> ").upper()
+        english = input("~> ").upper()
         print("")
         morse = english_to_morse(english)
         print('')
@@ -84,6 +84,7 @@ def main():
     
     elif response == "3":
         exit()
+    
     elif response == "4":
         print("")
         print("""A	.-	B	-...
@@ -94,7 +95,7 @@ I	..	J	.---
 K	-.-	L	.-..
 M	--	N	-.
 O	---	P	.--.
-Q	--.-    R	.-.
+Q	--.-	R	.-.
 S	...	T	-
 U	..-	V	...-
 W	.--	X	-..-
@@ -103,8 +104,11 @@ Y	-.--	Z	--..
 2	..---	3	...--
 4	....-	5	.....
 6	-....	7	--...
-8	---..	9	----. """)
+8	---..	9	----.
+.      .-.-.-   ,       --..--
+?      ..--..   /       -..-.""")
         main()
+   
 
 if __name__ == "__main__":
     main()
