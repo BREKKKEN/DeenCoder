@@ -1,7 +1,19 @@
-DeenCoder update v0.1.2 notes.
+DeenCoder update v0.1.2 notes:
 
 1. new supported characters: "." "?" "," "/"
 
 2. instead of spaceing morse code with: " " its now spaced with: "/" so when typing hello it would be typed out as: "...././.-../.-../---"
 
 3. updated morse code chart.
+
+|
+
+DeenCoder update v0.2.3 notes:
+
+1. morse code characters are nolonger spaced with "/" but are now spaced with " "
+
+2. new supported characters: "+" "!"
+
+3. when printing a english translation there are no longer spaces in-between each character.
+
+4. updated morse code chart.
