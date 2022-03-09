@@ -17,3 +17,13 @@ DeenCoder update v0.1.3 notes:
 3. when printing a english translation there are no longer spaces in-between each character.
 
 4. updated morse code chart.
+
+|
+
+DeenCoder update v0.1.4 notes:
+
+1. when printing a english translation there are spaces in-between each character.
+
+2. new supported characters: "@" "&"
+
+3. updated morse code chart.
