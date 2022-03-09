@@ -8,7 +8,7 @@ DeenCoder update v0.1.2 notes:
 
 |
 
-DeenCoder update v0.1.3 notes:
+DeenCoder update v0.1.3 (mini update) notes:
 
 1. morse code characters are nolonger spaced with "/" but are now spaced with " "
 
