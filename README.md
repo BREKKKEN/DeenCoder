@@ -1,9 +1,10 @@
 # DeenCoder
 DeenCoder is a Morse code to English/English to Morse code translator written in python.
 
-Note: DeenCoder is only supported on windows!
-
-Note: Releases will not be published!
+Notes: 
+DeenCoder is only supported on windows
+|
+Releases will not be published!
 
 A very jank website for DeenCoder - https://sites.google.com/view/deencoder-copy-and-paste/home
 
