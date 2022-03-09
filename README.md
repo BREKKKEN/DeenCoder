@@ -6,4 +6,4 @@ DeenCoder is only supported on windows
 |
 Releases will not be published!
 
-<img width="944" alt="2022-03-08 20_38_55-Movies   TV" src="https://user-images.githubusercontent.com/63617447/157362113-18465957-83f2-4108-a09a-027ef205dd40.png">
+<img width="947" alt="2022-03-09 17_38_05-DeenCoder - Visual Studio Code" src="https://user-images.githubusercontent.com/63617447/157557753-d1586efa-a844-4b68-856c-fc43d65fd7f3.png">
