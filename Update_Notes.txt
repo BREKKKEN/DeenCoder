@@ -20,10 +20,20 @@ DeenCoder update v0.1.3 notes:
 
 |
 
-DeenCoder update v0.1.4 (mini update) notes:
+DeenCoder update v0.1.4 (small update) notes:
 
 1. when printing a english translation there are spaces in-between each character.
 
 2. new supported characters: "@" "&"
+
+3. updated morse code chart.
+
+|
+
+DeenCoder update v0.1.5 (small update) notes:
+
+1. print a morse code chart is now on the options list.
+
+2. new supported characters: "(" ")"
 
 3. updated morse code chart.
