@@ -37,3 +37,6 @@ DeenCoder update v0.1.5 notes:
 2. new supported characters: "(" ")"
 
 3. updated morse code chart.
+
+4. if you enter something that is not 1/2/3/4 it will print "Please Enter a valid oporation"
+
