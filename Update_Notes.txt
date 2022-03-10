@@ -20,7 +20,7 @@ DeenCoder update v0.1.3 notes:
 
 |
 
-DeenCoder update v0.1.4 (small update) notes:
+DeenCoder update v0.1.4 notes:
 
 1. when printing a english translation there are spaces in-between each character.
 
@@ -30,7 +30,7 @@ DeenCoder update v0.1.4 (small update) notes:
 
 |
 
-DeenCoder update v0.1.5 (small update) notes:
+DeenCoder update v0.1.5 notes:
 
 1. print a morse code chart is now on the options list.
 
