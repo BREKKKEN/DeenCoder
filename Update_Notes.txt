@@ -48,3 +48,10 @@ DeenCoder update v0.1.6 notes:
 
 2. updated morse code chart.
 
+|
+
+DeenCoder update v0.1.7 notes:
+
+1. colored text has been added to DeenCoder! (not everything is colored just a few things)
+
+2. new supported character: ":"
