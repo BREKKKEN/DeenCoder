@@ -1,0 +1,1 @@
+colorama - pip install colorama
