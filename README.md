@@ -5,6 +5,5 @@ Notes:
 DeenCoder is only supported on windows
 |
 Releases will not be published!
-|
 
 package requirements: colorama - pip install colorama
