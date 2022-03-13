@@ -57,3 +57,15 @@ DeenCoder update v0.1.7 notes:
 2. new supported character: ":"
 
 3. updated morse code chart.
+
+|
+
+DeenCoder update v0.1.8 notes:
+
+1. after making a morse to english translation the program will ask you "Play message (y/n): " if you type y a text to speech voice will say your english message if you type n noting will happen and it will take you back to the main menu.
+
+2. english characters will no longer be spaced when making a morse to english translation.
+
+3. new supported character: "
+
+4. updated morse code chart.
