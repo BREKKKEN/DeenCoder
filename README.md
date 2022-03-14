@@ -8,4 +8,5 @@ Releases will not be published!
 
 package requirements: colorama - pip install colorama | pyttsx3 - pip install pyttsx3
 
-<img width="605" alt="2022-03-09 17_38_05-DeenCoder - Visual Studio Code" src="https://user-images.githubusercontent.com/63617447/158039285-db97a50d-0317-49b0-835e-9c56961e555e.png">
+
+<img width="606" alt="2022-03-09 17_38_05-DeenCoder - Visual Studio Code" src="https://user-images.githubusercontent.com/63617447/158278963-fa4619dc-e2a1-480a-a066-fe16ef67f126.png">
