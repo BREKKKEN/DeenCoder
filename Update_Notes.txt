@@ -69,3 +69,9 @@ DeenCoder update v0.1.8 notes:
 3. updated morse code chart.
 
 4. english characters will no longer be spaced when making to morse to english translation due to the new speak message feature.
+
+DeenCoder update v0.1.9 notes:
+
+1. help/credits is a option now.
+
+2. updated console designs
