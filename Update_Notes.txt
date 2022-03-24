@@ -70,8 +70,20 @@ DeenCoder update v0.1.8 notes:
 
 4. english characters will no longer be spaced when making to morse to english translation due to the new speak message feature.
 
+|
+
 DeenCoder update v0.1.9 notes:
 
 1. help/credits is a option now.
 
 2. new designs
+
+|
+
+DeenCoder v0.2.0 update notes:
+
+1. when in the main menu you can type res or reset to clear the screen/console 
+
+2. when the program asks play message you can type Y or y N or n
+
+3. res or reset can be typed out in any way like: Res or reS or res or RES or rEs i think you get the point by now 
