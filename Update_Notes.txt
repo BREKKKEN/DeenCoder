@@ -74,4 +74,4 @@ DeenCoder update v0.1.9 notes:
 
 1. help/credits is a option now.
 
-2. updated console designs
+2. new designs
