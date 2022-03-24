@@ -8,4 +8,6 @@ Releases will not be published!
 
 package requirements: colorama - pip install colorama | pyttsx3 - pip install pyttsx3
 
+email the creator @: deencodergit@gmail.com
+
 ![2022-03-09 17_38_05-DeenCoder - Visual Studio Code](https://user-images.githubusercontent.com/63617447/159800424-d0c4ce4d-a68f-44b5-b7ac-125586fa06f7.png)
