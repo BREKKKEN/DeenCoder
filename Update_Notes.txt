@@ -87,3 +87,19 @@ DeenCoder v0.2.0 update notes:
 2. when the program asks play message you can type Y or y N or n
 
 3. res or reset can be typed out in any way like: Res or reS or res or RES or rEs i think you get the point by now 
+
+|
+
+DeenCoder v0.2.1 update notes:
+
+1. anytime you make a translation the program will save it to a file.
+
+2. typing re1 will re-print your latest morse to english translation.
+
+3. typing re2 will re-print your latest english to morse translation.
+
+4. typing ?e will print all of the extra commands.
+
+5. after a file is saved the program will print "saved to {filename}"
+
+4. any command including english characters can be written out uppercase or lowercase. 
