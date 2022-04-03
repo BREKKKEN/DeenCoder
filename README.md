@@ -7,7 +7,7 @@ DeenCoder is only supported on windows
 |
 Releases will not be published!
 
-package requirements: colorama - pip install colorama | pyttsx3 - pip install pyttsx3
+package requirements: colorama - pip install colorama | pyttsx3 - pip install pyttsx3 | datetime - pip install DateTime
 
 email the creator @: deencodergit@gmail.com
 
