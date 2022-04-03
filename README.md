@@ -5,7 +5,7 @@ DeenCoder is a Morse code to English/English to Morse code translator written in
 Notes: 
 DeenCoder is only supported on windows
 |
-Releases will not be published!
+RELEASES ARE PUBLISHED!!
 
 package requirements: colorama - pip install colorama | pyttsx3 - pip install pyttsx3 | datetime - pip install DateTime
 
