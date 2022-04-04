@@ -111,3 +111,9 @@ DeenCoder v0.2.2 update notes:
 1. login time has been added 
 
 2. ?e is no longer a option
+
+|
+
+DeenCoder v0.2.3 update notes:
+
+1. the porgram will get you os name and if it is not windows it will print "Your system is not compatable with this software." and do nothing from there.
