@@ -1,4 +1,5 @@
 # DeenCoder
+# Its hard to say but DeenCoder will no longer be updated I do not have enough time to work on it
 
 DeenCoder is a Morse code to English/English to Morse code translator written in python.
 
